@@ -1,0 +1,280 @@
+/*Resetando a configuração do HTML*/
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+/*será utilizado para atividades*/
+
+.tituloh1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1e1e26;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+}
+
+.paragrafo-padrao-estilo {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1e1e26;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+/*Diminuindo a imagem pela metade*/
+.config-foto {
+    width: 50%;
+}
+
+/*Configuração Header Jovem Nerd*/
+.menu-principal {
+width: 100%;
+background-color: #1E1E26;
+display: inline-flex;
+justify-content: space-around;
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+
+.logo {
+  width: 70%;
+
+}
+
+.menu-lista ul{
+  /*Não coloque nome  e esse comando tira a bullets da linhas*/
+ 
+  list-style: none;
+  display: inline-flex;
+
+}
+
+.menu-lista ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 20px;
+  font-family:  "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #1E1E26;
+  color: white;
+  font-size: 16px;
+  font-family:"Inter", sans-serif ;
+  font-weight: 500;
+  border: none;
+}
+
+/* The container <div> - necessário para posicionar o conteúdo suspenso */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Oculto por padrão) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #282830;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Mudar cor do links do dropdown ao passar o mouse */
+.dropdown-content a:hover {background-color: none;}
+
+/* Mostrar o dropdown  ao passar o mouse */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+/*COMEÇO MENU SECUNDARIO*/
+
+/*Configuração do SUBHEADER*/
+.menu-secundario {
+  width: 100%;
+  background-color: #14141C;
+  display: inline-flex;
+  justify-content: space-around;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  
+  }
+
+  /*configuração de saparação das palavras*/
+.menu-sublista ul{
+ 
+  list-style: none;
+  display: inline-flex;
+
+}
+
+/*configuração do texto*/
+.menu-sublista ul li a {
+
+  text-decoration: none;
+  color: rgb(59, 180, 180);
+  margin-right: 40px;
+  font-family:  "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+/*FIM DO MENU SECUNDARIO*/
+
+/*COMEÇO conteudo prncipal do site*/
+
+.section-conteudo-blog {
+
+width: 100%;
+
+}
+
+.conteudo-blog {
+
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.noticias-principais {
+
+  width: 47%;
+  text-align: center;
+}
+
+.link-blog {
+
+font-size: 16;
+font-weight: 700;
+font-family: "Inter", sans-serif;
+color: #3BB4B4;
+text-decoration: none;
+
+}
+
+.titulo-blog {
+
+  font-size: 28;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #1E1E26;
+
+}
+
+.img-principal {
+
+  width: 98%;
+}
+
+/*FIM do conteudo do site */
+/* Código do Subreder*/
+
+/* Início noticias secundarias*/
+.noticias-secundarias {
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+}
+
+.posts-secundarias {
+  width: 70%;
+}
+
+.div-posts-secundarias-1 {
+  width: 100%;
+  display: inline-flex;
+}
+
+.lista-noticias {
+  width: 30%;
+}
+
+.img-principal-posts {
+  width: 90%;
+}
+
+.links-secundarios {
+color: #D72337;
+font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 700;
+text-decoration: none;
+}
+
+.titulos-secundarios {
+font-size: 22px;
+font-weight: 700;
+color: black;
+font-family: "Inter", sans-serif;
+text-align: left;
+margin-left: 20px;
+}
+/* FIM noticias secundarias*/
+
+.titulo-aside {
+
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif ;
+  color: #3BB4B4;
+}
+
+.lista-aside ol li {
+
+  font-size: 32px;
+  color: black;
+  font-family:  "Inter", sans-serif;
+
+
+}
+
+/*Configuração Aside*/
+
+
+/*Fim Configuração Aside*/
+
+/*COMEÇO da box criticas-reviews*/
+
+.criticas-reviews {
+
+  display: inline-flex;
+  background-color: black;
+  margin-top: 44px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.titulo-criticas-reviews {
+
+  font-size: 26px;
+  font-weight: 700;
+  font-family:  "Inter", sans-serif ;
+  color: #3BB4B4;
+   }
+
+
+/*FIM da box criticas-reviews*/

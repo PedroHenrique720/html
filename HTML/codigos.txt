@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /*Este é um comentário no CSS*/
+        /*A Id é representada pela #*/
+
+        #tituloexplicaçoes {
+            font-size: 32px;
+            color: #a3172a;
+
+        }
+        /*backgronud color muda a cor de fundo*/
+        /*font-weght muda o quanto a fonte é bolt*/
+        /*font-family muda a fonte*/
+        .titulopadrao {
+            font-size: 22px;
+            color: #ffffff;
+            background-color: #a3172a;
+            font-weight: 600;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+    </style>
+    <title>Códigos para Aprendizado</title>
+</head>
+<body>
+    <h1>Este é um texto h1</h1>
+    <h2>Este é um texto h2</h2>
+    <h3 id="tituloexplicaçoes">Este é um texto h3</h3>
+    <h4>Este é um texto h4</h4>
+    <h5>Este é um texto h5</h5>
+    <h6>Este é um texto h6</h6>
+
+    <h3 class="titulopadrao">a tag paragrafo</h3>
+    <p class="paragrafo-padrao">paragrafo é uma das estruturas mais utilizadas para as fotmatações de texto, ela é representada pela letra p</p>
+    <p class="paragrafo-padrao">os paragrafos possuem um espaçamento padrão entre eles.</p>
+
+    <h3 class="titulopadrao">As tags Strong e Em</h3>
+    <p class="paragrafo-padrao">A tag Strong é para dar <strong>destaque</strong> para uma palavra em um texto.</p>
+    
+    <p class="paragrafo-padrao">A tag em é para dar <em>ênface</em> em alguma parte do nosso texto</p>
+    
+    <p class="paragrafo-padrao">Antigamente o <b>negrito</b> era utilizado a tag b, ainda é possível utilizar, mas perdeu relevância </p>
+
+    <p class="paragrafo-padrao">a mesma coisa aconteceu com o <i>itálico</i></p>
+
+    <h3 class="titulopadrao">Estilizando os nossos textos</h3>
+
+    <p class="paragrafo-padrao">Para utilizar usamos a tag style e há 3 formas</p>
+    
+    <!--Color altera a cor do paragrafo-->
+    <!--Font-Sise altera o tamanho da fonte do meu texto-->
+    <p style="color: #00ffff; font-size: 20px;">Existe o CSS inline, ou seja, na mesma linha, onde configuramos apenas uma parte do código</p>
+    <p>Existe o CSS internal, onde configuramos o style dentro da TAG head e importamos essa configuração.</p>
+    <p>As importações são feitas pelos atributos ID e Class</p>
+
+    <p class="paragrafo-padrao">O id é usado para apontar uma declaração do CSS, ela deve ser usada apenas 1 vez</p>
+
+    <p class="paragrafo-padrao">O atributo HMTL Class é usado para especificar uma classe para um elemento HTML, ela pode ser utilizar várias vezes </p>
+
+    <p class="paragrafo-padrao">O Css External é uma referencia a um código que é feito a parte e que importamos para o nosso código</p> 
+
+    <h3 class="titulopadrao">Estilizando os nossos textos</h3>
+
+    <p>Há dois tipos de listas, as ordenadas que são ol, e as não ordenadas que são as ul</p>
+
+    <ol>
+        <li>Este é o primeiro item</li>
+        <p>Este é o item um da nossa lista, sobre HTML</p>
+        <li>Este é o segundo item</li>
+        <li>Este é o terceiro item</li>
+        <li>Este é o quarto item </li>
+    </ol>
+
+    <p>As listas não ordenadas, podem representar várias coisas, como o dia dia</p>
+
+    <ul style="list-style:square;">
+        <li>Acordar as 5:00</li>
+        <li>Me visto</li>
+        <li>Tomo café</li>
+        <li>Escovo os dentes</li>
+        <li>Arrumo a mochila</li>
+        <li>E dirigo até o senac</li>
+    </ul>
+
+    <p>Criando uma lista de filmes que eu gosto</p>
+
+    <ol>
+        <li>Lista de filmes que eu gosto</li>
+        <ul>
+            <li>As branquelas</li>
+            <li>O pequenino</li>
+            <li>senhor dos anéis</li>
+            <li>Harry Potter</li>
+        </ul>
+        
+        <li>Lista de Séries</li>
+        <ul>
+            <li>supernatural</li>
+            <li>The big bang theory</li>
+            <li>how met your mother</li>
+            <li>brooklyn nine nine</li>
+        </ul>
+    </ol>
+
+    <h3 class="titulopadrao">Div</h3>
+
+    <p>A tag Div é o elemento HTML que serve como um contêiner genérico, podendo receber diferentes tipos de contúdos (texto, imagens, etc ...)</p>
+
+    <div class="div-background">
+        
+        <div class="div-1"></div>
+
+        <div class="div-2"></div>
+
+    </div>
+
+    <h3 class="titulopadrao">Header, section, Article, nav, main e aside</h3>
+
+    <p>Header é o cabeçalho do nosso site, onde colocamos logo e o menu</p>
+    <p>Nav é a Tag que representa o nosso menu</p>
+    <p>Main é oande está o conteudo principal do nosso site, geralmente podemos configurar uma ID aqui</p>
+    <p>section delimita uma seção de nosso site, tem a mesma dunção da div</p>
+    <p>Aside é o conteudo lateral em um site</p>
+    <p>Article são espaços de titulo e texto vinculados ao blog</p>
+    <p>Todas as tags são pertencentes ao HTML semantico, que é a forma certa de se escrever o conteudo HTML</p>

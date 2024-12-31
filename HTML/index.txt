@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovem Nerd - Podcast e noticias</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div class="menu-principal">
+            <div>
+                <img src="imagens/Logo.webp" alt="Logo Jovem nerd" class="logo">
+            </div>
+            
+            <div>
+                <nav class="menu-lista">
+                    <ul>
+                        <li><a href="https://jovemnerd.com.br/nerdcast/">NerdCast</a></li>
+                        <li><a href="https://jovemnerd.com.br/nerdoffice/">NerdOffice</a></li>
+                        <li><a href="https://jovemnerd.com.br/nerdplayer/">NerdPlayer</a></li>
+                        <li><a href="https://jovemnerd.com.br/mau-acompanhado/">Mau Acompanhado</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown</button>
+                            <div class="dropdown-content">
+                              <a href="#">Nerdologia</a>
+                              <a href="#">Nc Stories</a>
+                              <a href="#">Desenkaixa</a>
+                              <a href="#">Sr. K</a>
+                              <a href="#">Tesouros de Ghanor</a>
+                            </div>
+                          </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="menu-secundario">
+            
+            <!-- Logo nerdbunker-->
+            <div>
+                <img src="imagens/logo-nerdbunker.png" alt="logo-nerdbunker">
+            </div>
+                      
+            <div>
+                <div class="menu-sublista">
+                    <ul>
+                        
+                        <li><a href="https://jovemnerd.com.br/bunker/tag/madame-teia/">Madame Teia</a></li>
+                        <li><a href="https://jovemnerd.com.br/bunker/tag/avatar/">Avatar</a></li>
+                        <li><a href="https://jovemnerd.com.br/bunker/tag/o-menino-e-a-garca/">o menino e a Garça</a></li>
+                        <li><a href="https://jovemnerd.com.br/nerdcast/la-do-bunker/felizes-e-apreensivas/">Lá do bunker</a></li>
+                        <li><a href="https://jovemnerd.com.br/nerdcast/nerdcast-rpg/rpg-ghanor-6-o-paladino-a-aureola-e-o-paraiso/">RPG Ghanor 6</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <main>
+        <section class="section-conteudo-blog">
+            <div class="conteudo-blog">
+                <div class="noticias-principais">
+                    <article>
+                        <img src="imagens/vitrine_nos15e06_ruffghanorgame_a_v6__sl0220434-760x428.webp" alt="" class="imagem-principal">
+                        <a href="" class="link-blog"> NERDOFFICE no A!r</a>
+                        <h2 class="titulo-blog"> A origem do universo Ruff Ghanor</h2>
+                        <ul>
+                            <li>Ouça o Lá do Bunker da semana!</li>
+                        </ul>
+                </article>
+                </div>
+                <div class="noticias-principais">
+                <article>
+                    <img src="imagens/002__1e31r594-760x428.webp" alt="" class="imagem-principal">
+                    <a href="" class="link-blog">LÁ DO BUNKER ESPECIAL OSCAR</a>
+                    <h2 class="titulo-blog">Guardiões do Godzilla Impossível</h2>
+                    <ul>
+                        <li>Assista ao primeiro trailer do filme</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+        </section>
+
+         <!-- Início notícias secundárias -->
+
+         <section class="noticias-secundarias">
+            <section class="posts-secundarias">
+                <div class="div-posts-secundarias-1">
+                    <article class="article-secundario">
+                        <img src="imagens/skull_and_bones_review_1__tmjpz3u-760x428.webp" alt="" class="img-principal-posts">
+                        <br>
+                        <a href="https://jovemnerd.com.br/nerdbunker/skull-and-bones-review/" class="links-secundarios">LEIA A REVIEW</a>
+                        <h3 class="titulos-secundarios">Skull and Bones é fantasia pirata <br>com medo de sair do raso</h3>
+                    </article>
+                    
+                    <article>
+                        <img src="imagens/coisa_cgi_quarteto_fantastico__ti2ymj-760x428.webp" alt="" class="img-principal-posts">
+                        <br>
+                        <a href="" class="links-secundarios">TÁ NA HORA DO PAU VIRTUAL!</a>
+                        <h3 class="titulos-secundarios">O Coisa do novo Quarteto Fantástico será em CGI</h3>
+                    </article>
+                </div>
+
+                <div class="div-posts-secundarias-1">
+                    <article>
+                        <img src="imagens/avatar_sokka_machismo__mx402et2y-760x428.webp" alt="" class="img-principal-posts">
+                        <br>
+                        <a href="" class="links-secundarios">MUDANÇAS NO LIVE-ACTION</a>
+                        <h3 class="titulos-secundarios">Como Avatar da Netflix lida com o machismo de Sokka</h3>
+                    </article>
+
+                    <article>
+                        <img src="imagens/dungeons_and_dragons_sem_livros_em_portugues__b2r168-760x428.webp" alt="" class="img-principal-posts">
+                    <br>
+                        <a href="" class="links-secundarios">QUE TRISTEZA</a>
+                        <h3 class="titulos-secundarios">Dungeons & Dragons não receberá mais livros em português</h3>
+                    </article>
+                </div>
+            </section>
+            
+            <aside class="lista-noticias">
+                <h2 class="titulo-aside"> Em Alta</h2>
+                <ol class="lista-aside">
+                    <li><a href="https://jovemnerd.com.br/nerdbunker/episodio-8-de-solo-leveling-e-adiado/">Episódio 8 de Solo Leveling é adiado</a></li>
+                    <li><a href="https://jovemnerd.com.br/nerdbunker/gladiador-2-primeiras-imagens-impressionaram-produtores/">Primeiras imagens de Gladiador 2 impressionaram produtores do filme</a></li>
+                    <li><a href="https://jovemnerd.com.br/nerdbunker/funcionarios-de-companhia-aerea-recriam-abertura-de-jujutsu-kaisen/">Funcionários de companhia aérea recriam abertura de Jujutsu Kaisen</a></li>
+                    <li><a href="https://jovemnerd.com.br/nerdbunker/demon-slayer-filme-hashira-training-critica/">Demon Slayer corrige problemas em filme que inicia arco do Treinamento Hashira | Crítica</a></li>
+                    <li><a href="https://jovemnerd.com.br/nerdbunker/mcdonalds-estudio-pierrot-naruto-projeto-anime/">McDonald's se junta ao estúdio de Naruto para anunciar projeto de anime</a></li>
+                </ol>
+            </aside>
+        </section>
+
+        <section>
+            
+            <div  class="criticas-reviews">
+                <h2 class="titulo-criticas-reviews">Críticas Reviews</h2>
+                <div>
+                    <article>
+                        <img src="imagens/primeira imagem criticas review.webp" alt="imagem do skull-and-bones-review">
+                        <a href="https://jovemnerd.com.br/nerdbunker/skull-and-bones-review/">GAMES</a>
+                        <h3>Skull and Bones é fantasia pirata com medo de sair do raso | Review</h3>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="imagens/segunda imagem criticas review.webp" alt="série terra noturna">
+                        <a href="https://jovemnerd.com.br/nerdbunker/true-detective-terra-noturna-critica/">SÉRIES,TV E STREAMING</a>
+                        <h3>Terra Noturna oscila entre a herança e o fardo de True Detective | Crítica</h3>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="imagens/terceira imagem critica review.webp" alt="série do avatar">
+                        <a href="https://jovemnerd.com.br/nerdbunker/avatar-o-ultimo-mestre-do-ar-netflix-critica/">SÉRIES,TV E STREAMING</a>
+                        <h3>Avatar chega à Netflix em versão competente, mas sem brilho | Crítica</h3>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="imagens/quarta imagem critica review.webp" alt="jogo final fantasy">
+                        <a href="https://jovemnerd.com.br/nerdbunker/final-fantasy-vii-rebirth-review/">GAMES</a>
+                        <h3>Final Fantasy VII Rebirth é uma experiência nostálgica, mas com toque próprio</h3>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="imagens/quinta imagem critica review.webp" alt="anime o menino e a garca">
+                        <a href="https://jovemnerd.com.br/nerdbunker/o-menino-e-a-garca-critica/">ANIMES E MANGA</a>
+                        <h3>O Menino e a Garça encanta e emociona evitando caminhos fáceis</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

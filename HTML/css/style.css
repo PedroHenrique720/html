@@ -1,0 +1,42 @@
+.paragrafo-padrao {
+    font-size: 18px;
+    color: #555555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
+.div-background {
+    /*height é a Altura da tag*/
+    height: 300px;
+    /*width é a largura*/
+    width: 100%;
+    /*backgrount é a cor de fundo*/
+    background-color: black;
+    display: inline-flex;
+}
+
+.div-1 {
+    height: 140px;
+
+    width: 45%;
+
+    background-color:aqua ;
+
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.div-2 {
+    height: 140px;
+
+    width: 45%;
+
+    background-color: yellowgreen;
+
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+
+
